@@ -1,0 +1,302 @@
+MATERIAL,desgaste(%),carga[ton],distancia[km]
+ruedas,"0,025",105,500
+ruedas,"0,031",110,750
+ruedas,"0,018",95,300
+ruedas,"0,029",100,450
+ruedas,"0,033",115,600
+ruedas,"0,021",98,350
+ruedas,"0,04",120,800
+ruedas,"0,017",92,250
+ruedas,"0,026",105,400
+ruedas,"0,035",110,700
+ruedas,"0,028",97,480
+ruedas,"0,032",113,650
+ruedas,"0,019",90,320
+ruedas,"0,027",108,420
+ruedas,"0,036",112,720
+ruedas,"0,02",94,370
+ruedas,"0,041",118,830
+ruedas,"0,016",88,270
+ruedas,"0,024",103,390
+ruedas,"0,034",109,680
+ruedas,"0,022",96,360
+ruedas,"0,03",111,640
+ruedas,"0,018",91,310
+ruedas,"0,029",107,460
+ruedas,"0,037",114,750
+ruedas,"0,023",95,380
+ruedas,"0,042",119,860
+ruedas,"0,015",85,220
+ruedas,"0,025",104,410
+ruedas,"0,033",108,690
+ruedas,"0,021",93,340
+ruedas,"0,031",112,660
+ruedas,"0,017",89,290
+ruedas,"0,028",106,430
+ruedas,"0,038",115,780
+ruedas,"0,02",92,350
+ruedas,"0,04",117,810
+ruedas,"0,019",87,280
+ruedas,"0,026",101,400
+ruedas,"0,035",110,710
+ruedas,"0,022",94,360
+ruedas,"0,032",113,670
+ruedas,"0,016",86,260
+ruedas,"0,027",105,420
+ruedas,"0,036",111,730
+ruedas,"0,018",90,300
+ruedas,"0,041",116,840
+ruedas,"0,024",97,380
+ruedas,"0,039",114,760
+ruedas,"0,021",93,340
+ruedas,"0,03",109,650
+ruedas,"0,017",88,270
+ruedas,"0,029",106,440
+ruedas,"0,037",112,720
+ruedas,"0,023",95,370
+ruedas,"0,042",118,850
+ruedas,"0,015",84,230
+ruedas,"0,025",102,410
+ruedas,"0,034",110,700
+ruedas,"0,02",91,330
+ruedas,"0,031",114,680
+ruedas,"0,019",89,310
+ruedas,"0,028",107,450
+ruedas,"0,038",115,770
+ruedas,"0,022",94,360
+ruedas,"0,04",117,800
+ruedas,"0,016",87,260
+ruedas,"0,026",104,400
+ruedas,"0,035",111,710
+ruedas,"0,021",92,340
+ruedas,"0,033",113,670
+ruedas,"0,018",88,290
+ruedas,"0,027",105,430
+ruedas,"0,039",116,790
+ruedas,"0,02",90,350
+ruedas,"0,041",119,830
+ruedas,"0,017",86,280
+ruedas,"0,029",108,460
+ruedas,"0,036",112,740
+ruedas,"0,023",93,370
+ruedas,"0,03",110,660
+ruedas,"0,015",85,240
+ruedas,"0,024",103,390
+ruedas,"0,037",114,760
+ruedas,"0,022",91,350
+ruedas,"0,042",120,870
+ruedas,"0,019",89,310
+ruedas,"0,025",100,410
+ruedas,"0,034",109,680
+ruedas,"0,021",92,340
+ruedas,"0,032",111,670
+ruedas,"0,016",87,260
+ruedas,"0,028",106,430
+ruedas,"0,038",115,780
+ruedas,"0,02",90,350
+ruedas,"0,04",117,810
+ruedas,"0,018",88,290
+ruedas,"0,026",104,400
+ruedas,"0,035",112,720
+ruedas,"0,023",93,370
+ruedas,"0,039",116,800
+ruedas,"0,017",86,280
+ruedas,"0,027",105,420
+ruedas,"0,041",118,840
+ruedas,"0,021",91,330
+ruedas,"0,033",113,690
+ruedas,"0,015",85,240
+ruedas,"0,029",107,450
+ruedas,"0,036",110,710
+ruedas,"0,022",94,360
+ejes,"0,01",210,600
+ejes,"0,012",215,650
+ejes,"0,009",205,580
+ejes,"0,011",220,700
+ejes,"0,008",200,550
+ejes,"0,013",225,720
+ejes,"0,01",208,610
+ejes,"0,014",230,750
+ejes,"0,009",203,570
+ejes,"0,012",218,680
+ejes,"0,011",212,630
+ejes,"0,013",227,710
+ejes,"0,008",201,560
+ejes,"0,015",233,780
+ejes,"0,01",209,600
+ejes,"0,012",216,660
+ejes,"0,009",204,590
+ejes,"0,011",221,700
+ejes,"0,014",228,730
+ejes,"0,01",207,610
+ejes,"0,013",224,690
+ejes,"0,008",202,580
+ejes,"0,015",231,760
+ejes,"0,011",213,640
+ejes,"0,012",219,670
+ejes,"0,009",206,600
+ejes,"0,014",226,720
+ejes,"0,01",210,610
+ejes,"0,013",222,680
+ejes,"0,008",200,570
+ejes,"0,015",234,790
+ejes,"0,011",214,650
+ejes,"0,012",217,660
+ejes,"0,009",205,590
+ejes,"0,014",229,730
+ejes,"0,01",208,620
+ejes,"0,013",223,700
+ejes,"0,008",201,580
+ejes,"0,015",232,770
+ejes,"0,011",211,640
+ejes,"0,012",218,670
+ejes,"0,009",207,600
+ejes,"0,014",225,720
+ejes,"0,01",209,610
+ejes,"0,013",221,690
+ejes,"0,008",203,560
+ejes,"0,015",230,750
+ejes,"0,011",215,630
+ejes,"0,012",220,660
+ejes,"0,009",206,590
+ejes,"0,014",227,710
+ejes,"0,01",210,620
+ejes,"0,013",224,700
+ejes,"0,008",202,570
+ejes,"0,015",233,780
+ejes,"0,011",212,640
+ejes,"0,012",219,670
+ejes,"0,009",205,600
+ejes,"0,014",228,730
+ejes,"0,01",208,610
+ejes,"0,013",222,680
+ejes,"0,008",200,580
+ejes,"0,015",231,760
+ejes,"0,011",213,650
+ejes,"0,012",216,660
+ejes,"0,009",204,590
+ejes,"0,014",229,720
+ejes,"0,01",207,620
+ejes,"0,013",223,700
+ejes,"0,008",201,570
+ejes,"0,015",234,790
+ejes,"0,011",214,640
+ejes,"0,012",217,670
+ejes,"0,009",206,600
+ejes,"0,014",226,730
+ejes,"0,01",209,610
+ejes,"0,013",221,690
+ejes,"0,008",203,580
+ejes,"0,015",232,770
+ejes,"0,011",215,650
+ejes,"0,012",218,660
+ejes,"0,009",205,590
+ejes,"0,014",227,710
+ejes,"0,01",210,620
+ejes,"0,013",224,700
+ejes,"0,008",200,560
+ejes,"0,015",233,780
+ejes,"0,011",212,640
+ejes,"0,012",219,670
+ejes,"0,009",207,600
+ejes,"0,014",225,720
+ejes,"0,01",208,610
+ejes,"0,013",222,680
+ejes,"0,008",202,580
+ejes,"0,015",230,750
+zapatas de freno,"0,055",80,150
+zapatas de freno,"0,06",85,200
+zapatas de freno,"0,048",75,120
+zapatas de freno,"0,052",78,140
+zapatas de freno,"0,063",82,210
+zapatas de freno,"0,05",76,130
+zapatas de freno,"0,065",88,220
+zapatas de freno,"0,049",74,110
+zapatas de freno,"0,056",80,160
+zapatas de freno,"0,061",83,190
+zapatas de freno,"0,053",77,150
+zapatas de freno,"0,064",86,215
+zapatas de freno,"0,047",73,100
+zapatas de freno,"0,057",81,170
+zapatas de freno,"0,062",84,200
+zapatas de freno,"0,051",76,140
+zapatas de freno,"0,066",89,225
+zapatas de freno,"0,048",75,120
+zapatas de freno,"0,054",79,155
+zapatas de freno,"0,06",82,185
+zapatas de freno,"0,052",77,145
+zapatas de freno,"0,063",85,210
+zapatas de freno,"0,049",74,110
+zapatas de freno,"0,058",82,175
+zapatas de freno,"0,061",87,195
+zapatas de freno,"0,05",76,135
+zapatas de freno,"0,065",90,220
+zapatas de freno,"0,047",72,105
+zapatas de freno,"0,056",80,165
+zapatas de freno,"0,062",84,205
+zapatas de freno,"0,053",78,150
+zapatas de freno,"0,064",88,215
+zapatas de freno,"0,048",73,115
+zapatas de freno,"0,057",81,170
+zapatas de freno,"0,06",85,190
+zapatas de freno,"0,051",75,140
+zapatas de freno,"0,066",89,225
+zapatas de freno,"0,049",74,120
+zapatas de freno,"0,055",79,155
+zapatas de freno,"0,063",86,210
+zapatas de freno,"0,052",77,145
+zapatas de freno,"0,061",83,195
+zapatas de freno,"0,048",75,125
+zapatas de freno,"0,058",82,180
+zapatas de freno,"0,065",90,220
+zapatas de freno,"0,05",76,135
+zapatas de freno,"0,064",87,205
+zapatas de freno,"0,047",73,110
+zapatas de freno,"0,056",80,160
+zapatas de freno,"0,062",84,200
+zapatas de freno,"0,053",78,150
+zapatas de freno,"0,06",85,190
+zapatas de freno,"0,049",74,120
+zapatas de freno,"0,057",81,170
+zapatas de freno,"0,066",89,225
+zapatas de freno,"0,051",75,140
+zapatas de freno,"0,063",86,210
+zapatas de freno,"0,048",72,110
+zapatas de freno,"0,055",79,155
+zapatas de freno,"0,061",83,195
+zapatas de freno,"0,052",77,145
+zapatas de freno,"0,065",88,220
+zapatas de freno,"0,047",73,115
+zapatas de freno,"0,058",82,180
+zapatas de freno,"0,064",90,215
+zapatas de freno,"0,05",76,135
+zapatas de freno,"0,062",84,205
+zapatas de freno,"0,049",74,125
+zapatas de freno,"0,056",80,160
+zapatas de freno,"0,06",85,190
+zapatas de freno,"0,053",78,150
+zapatas de freno,"0,065",89,220
+zapatas de freno,"0,048",75,130
+zapatas de freno,"0,057",81,170
+zapatas de freno,"0,063",87,205
+zapatas de freno,"0,051",75,140
+zapatas de freno,"0,066",90,225
+zapatas de freno,"0,047",73,115
+zapatas de freno,"0,055",79,155
+zapatas de freno,"0,061",84,195
+zapatas de freno,"0,052",77,145
+zapatas de freno,"0,064",88,215
+zapatas de freno,"0,049",74,125
+zapatas de freno,"0,058",82,180
+zapatas de freno,"0,062",85,200
+zapatas de freno,"0,05",76,135
+zapatas de freno,"0,065",89,220
+zapatas de freno,"0,048",72,110
+zapatas de freno,"0,056",80,160
+zapatas de freno,"0,063",86,210
+zapatas de freno,"0,053",78,150
+zapatas de freno,"0,061",83,195
+zapatas de freno,"0,047",73,120
+zapatas de freno,"0,057",81,170
+zapatas de freno,"0,066",90,225
+zapatas de freno,"0,051",75,140
