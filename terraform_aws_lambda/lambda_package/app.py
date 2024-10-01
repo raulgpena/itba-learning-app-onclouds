@@ -2,12 +2,13 @@ from flask import Flask, jsonify, request, json
 
 import pandas as pd
 import logging
+import numpy as np
+
 
 app = Flask(__name__)
 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 
 
 @app.route('/')

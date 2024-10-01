@@ -2,12 +2,15 @@ from flask import Flask, jsonify, request, json
 
 import pandas as pd
 import logging
+import numpy as np
+
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
 
 app = Flask(__name__)
 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 
 
 @app.route('/')
@@ -139,6 +142,92 @@ def averageWheelLife():
     result_str = f"Average wear per kilometer for 'ruedas': {average_wear_per_km}"
 
     return jsonify(message=result_str)
+
+
+
+@app.route('/wheelsByKilometers', methods=['GET'])
+def wheelsByKilometers():
+    
+    # Loading the DS.
+    logging.info("Loading Data Set...")
+    df = pd.read_csv('data.csv')
+
+    # Convert 'desgaste(%)' to numeric, replacing commas with dots
+    df['desgaste(%)'] = df['desgaste(%)'].str.replace(',', '.').astype(float)
+    
+    # Filter the dataset to include only rows where MATERIAL is 'ruedas'
+    df_ruedas = df[df['MATERIAL'] == 'ruedas']
+
+    # Prepare the data for machine learning
+    X = df_ruedas[['desgaste(%)', 'carga[ton]']]
+    y = df_ruedas['distancia[km]']
+
+    # Split the data into training and testing sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    # Train a Linear Regression model
+    model = LinearRegression()
+    model.fit(X_train, y_train)
+
+    # Function to predict the number of wheels needed for a given distance
+    def predict_wheels_needed(N):
+        # Predict the desgaste for the given distance
+        desgaste_pred = model.predict([[0, 0]])[0] / N
+        # Calculate the number of wheels needed
+        avg_desgaste = df_ruedas['desgaste(%)'].mean()
+        wheels_needed = desgaste_pred / avg_desgaste
+        return wheels_needed
+
+    # Example usage
+    logging.info(request.args.get('km'))
+    N = int(request.args.get('km'))   # Distance in kilometers
+    wheels_needed = predict_wheels_needed(N)
+    
+    return jsonify(message=f"Number of wheels needed for {N} kilometers: {wheels_needed}")
+
+
+
+@app.route('/wheelsByKilometersAndTons', methods=['GET'])
+def wheelsByKilometersAndTons():
+    
+    # Loading the DS.
+    logging.info("Loading Data Set...")
+    df = pd.read_csv('data.csv')
+
+    # Convert 'desgaste(%)' to numeric, replacing commas with dots
+    df['desgaste(%)'] = df['desgaste(%)'].str.replace(',', '.').astype(float)
+    
+    # Filter the dataset to include only rows where MATERIAL is 'ruedas'
+    df_ruedas = df[df['MATERIAL'] == 'ruedas']
+
+    # Prepare the data for machine learning
+    X = df_ruedas[['distancia[km]', 'carga[ton]']]
+    y = df_ruedas['desgaste(%)']
+
+    # Split the data into training and testing sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    # Train a Linear Regression model
+    model = LinearRegression()
+    model.fit(X_train, y_train)
+
+    # Function to predict the number of wheels needed for a given distance and load
+    def predict_wheels_needed(N, load):
+        # Predict the desgaste for the given distance and load
+        desgaste_pred = model.predict([[N, load]])[0]
+        # Calculate the number of wheels needed
+        avg_desgaste = df_ruedas['desgaste(%)'].mean()
+        wheels_needed = desgaste_pred / avg_desgaste
+        return wheels_needed
+
+    # Get parameters from request
+    N = float(request.args.get('km'))       # Distance in kilometers
+    load = float(request.args.get('tons'))  # Load in tons
+
+    # Predict the number of wheels needed
+    wheels_needed = predict_wheels_needed(N, load)
+    
+    return jsonify(message=f"Number of wheels needed for {N} kilometers and {load} tons: {wheels_needed}")
     
 
 

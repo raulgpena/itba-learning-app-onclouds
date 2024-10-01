@@ -1,1 +1,2 @@
 aws-lambda-wsgi==0.0.6
+scikit-learn==0.24.2
