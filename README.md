@@ -9,6 +9,7 @@ cd to docker folder and then execute: docker-compose up --build. Once executed, 
 ## Run on AWS (Using lambda/api)
 cd to lambda_package folder and then execute: 
 
+* pip install numpy
 * pip install -r requirements.txt -t . 
 * find . -name "*.dist-info" -type d -exec rm -rf {} +
 * zip -r ../lambda_function.zip .
